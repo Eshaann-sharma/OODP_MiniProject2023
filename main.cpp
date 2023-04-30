@@ -217,7 +217,7 @@ int main()
             cin >> amount;
             ans = person.Withdraw(amount);
 
-            if ( amount >= ans)
+            if (ans)
                 cout << "Successfully withdrawn Amount"
                     << endl;
             else
